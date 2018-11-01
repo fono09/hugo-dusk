@@ -9,6 +9,10 @@
   <a href="https://github.com/{{.}}" target="_blank"><div class="social-link">gh</div></a>
   {{end}}
 
+  {{with .Site.Params.mastodon}}
+  <a rel="me" href="{{.}}" target="_blank"><div class="social-link">mastodon</div></a>
+  {{end}}
+
   {{with .Site.Params.gitlab}}
   <a href="https://gitlab.com/{{.}}" target="_blank"><div class="social-link">gl</div></a>
   {{end}}

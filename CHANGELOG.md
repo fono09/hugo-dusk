@@ -1,5 +1,23 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+  * design update:
+    - titles, tags, list of posts are not so dense as before
+    - default colors were fine tuned
+    - some small layout changes
+
+### Changed
+  * Theme colors can be changed in a custom css file
+  * minimal required Hugo version is v0.57.2
+  * sort posts/pages on the error page by last modification date
+
+### Fixed
+  * fix breaking change in mainSections introduced in Hugo v0.57.0
+  * deprecation warnings during site build with v0.55 and newer
+  * optimize image size when viewed on mobile devices
+
 
 ## [1.1] - 2017-11-22
 ### Added

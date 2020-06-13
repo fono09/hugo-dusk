@@ -510,3 +510,20 @@ th, td {
   }
 }
 
+/* TableOfContents */
+#TableOfContents > ul {
+  font-size: smaller;
+}
+#TableOfContents ul {
+  list-style-type: none;
+	text-align: left;
+}
+#TableOfContents li {
+  padding-top: 0;
+}
+#TableOfContents li > ul {
+  padding-left: 1em;
+}
+#TableOfContents a {
+  font-weight: normal;
+}
